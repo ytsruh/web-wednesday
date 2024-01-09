@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.8.3/dist/paper.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Home | Vanilla Pokedex</title>
+  </head>
+  <body>
+    <nav class="border fixed split-nav">
+      <div class="nav-brand">
+        <h3><a href="index.html">Pokedex</a></h3>
+      </div>
+      <div class="collapsible">
+        <input id="collapsible1" type="checkbox" name="collapsible1" />
+        <label for="collapsible1">
+          <div class="mobilenavline"></div>
+          <div class="mobilenavline"></div>
+          <div class="mobilenavline"></div>
+        </label>
+        <div class="collapsible-body">
+          <ul class="inline">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="search.html">Search</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="border">
+      <div class="container">
+        <div class="page-header">
+          <img src="../images/pokedex_logo.png" alt="pokedex logo" class="hero-img" />
+          <h3>Welcome to the VanillaJS Pokedex. Search the original (& best) 151 Pokemon.</h3>
+          <a href="search.html" class="paper-btn btn-lg btn-primary">Search for Pokemon -></a>
+        </div>
+      </div>
+    </div>
+    <section class="container">
+      <div class="row">
+        <div class="col-4 col align-middle">
+          <h4>
+            The 151 original Pokemon are the best, so we made an easy way to search and find out some basic
+            info about them.
+          </h4>
+        </div>
+        <div class="col-8 col align-middle">
+          <img src="../images/collage.webp" alt="Original 151 pokemon collage" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-8 col align-middle">
+          <img src="../images/javascript.png" alt="Collage of JavaScript logo" />
+        </div>
+        <div class="col-4 col align-middle">
+          <h4>
+            We love vanilla JavaScript so we made a site using it. No packages, no npm, no frameworks, not
+            even jQuery!
+          </h4>
+          <h4>Just plain old JavaScript</h4>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

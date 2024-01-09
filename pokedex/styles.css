@@ -1,0 +1,27 @@
+.mobilenavline {
+  border: black solid 2px;
+  width: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.page-header {
+  padding: 30px 0px 30px 0px;
+}
+
+.search-input {
+  width: 75%;
+}
+
+.subheading {
+  text-align: center;
+}
+
+#pokemon-results {
+  padding: 30px 0px 30px 0px;
+}
+
+.hero-img {
+  margin: 70px 0px 20px 0px;
+  border: none;
+}

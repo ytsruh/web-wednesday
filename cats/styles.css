@@ -1,0 +1,81 @@
+body {
+  margin: 0px;
+  background-color: #e3e3e3;
+}
+a {
+  text-decoration: none;
+  color: #71717a;
+}
+a:hover {
+  color: #27272a;
+}
+
+#title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #27272a;
+}
+
+#main {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#card-container {
+  padding: 1.5rem;
+  background-color: white;
+  margin: 0.75rem;
+}
+
+#menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.75rem;
+}
+@media (min-width: 768px) {
+  #menu-container {
+    flex-direction: row;
+    margin-top: 0;
+    margin-bottom: 6rem;
+    justify-content: flex-end;
+  }
+}
+.group {
+  padding: 1rem;
+}
+
+#gallery {
+  display: grid;
+  gap: 1rem; /* Adjust the value to match the desired gap */
+}
+@media (min-width: 768px) {
+  #gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1024px) {
+  #gallery {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1280px) {
+  #gallery {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+.img-card {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.img-card img {
+  width: 100%;
+  border: 0px red solid;
+  height: 14rem;
+}

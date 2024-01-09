@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.8.3/dist/paper.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pokemon | Vanilla Pokedex</title>
+  </head>
+  <body>
+    <nav class="border fixed split-nav">
+      <div class="nav-brand">
+        <h3><a href="index.html">Pokedex</a></h3>
+      </div>
+      <div class="collapsible">
+        <input id="collapsible1" type="checkbox" name="collapsible1" />
+        <label for="collapsible1">
+          <div class="mobilenavline"></div>
+          <div class="mobilenavline"></div>
+          <div class="mobilenavline"></div>
+        </label>
+        <div class="collapsible-body">
+          <ul class="inline">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="search.html">Search</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="border">
+      <div class="container">
+        <div id="page-title" class="page-header">
+          <h1>Loading...</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="pokemon"></div>
+    <script src="pokemon.js"></script>
+  </body>
+</html>

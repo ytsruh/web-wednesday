@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.8.3/dist/paper.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Search Pokemon | Vanilla Pokedex</title>
+  </head>
+  <body>
+    <nav class="border fixed split-nav">
+      <div class="nav-brand">
+        <h3><a href="index.html">Pokedex</a></h3>
+      </div>
+      <div class="collapsible">
+        <input id="collapsible1" type="checkbox" name="collapsible1" />
+        <label for="collapsible1">
+          <div class="mobilenavline"></div>
+          <div class="mobilenavline"></div>
+          <div class="mobilenavline"></div>
+        </label>
+        <div class="collapsible-body">
+          <ul class="inline">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="search.html">Search</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="border">
+      <div class="container">
+        <div class="page-header flex">
+          <h1>Search for pokemon</h1>
+          <div class="form-group flex">
+            <input type="text" placeholder="Search for pokemon" id="pokemonSearch" class="search-input" />
+            <div class="flex">
+              <button id="searchButton" style="margin-top: 10px">Search</button>
+              <button id="resetButton" style="margin-top: 10px">Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h3 class="subheading" id="pokemonCount">151 Pokemon</h3>
+      <div id="pokemon-results" class="row flex-spaces"></div>
+    </div>
+    <script src="search.js"></script>
+  </body>
+</html>
