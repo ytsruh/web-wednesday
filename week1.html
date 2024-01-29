@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MY AWESOME PAGE</title>
+    <meta name="description" content="DEAR GOOGLE THIS IS THE BEST PAGE EVER MADE LOVE CHRIS xxx">
+</head>
+<body>
+    <!--This is a comment. It will not show on the page-->
+    <!--
+        Use comments to explain whats going on. 
+        Use comments a lot, you will thank me later :)
+    -->
+    <h1>Heading tags from h1 to h6</h1>    
+    <div>The is a divider</div>
+    <p>This is a paragraph of text</p>
+    <p>some tags dont have a closing tag such as img, input & hr</p>
+    <hr/>
+    <div>
+        <h1>Tags can go inside of tags</h1>
+        <h2>You can have as many as you want</h2>
+        <div>You put tags inside...
+            <div>...of tags!!!!</div>
+        </div>
+        <h3>You dont put text tags inside of text tags though...</h3>
+        <h4>If you need to then you <span>SPAN</span></h4>
+    </div>
+    <p>Find out more....</p>
+    <a href="https://www.w3schools.com/html/default.asp">www.w3schools.com/html</a>
+    <div>
+        <img src="https://pbs.twimg.com/media/F8LZbSQWkAA9I6z.jpg" alt="">
+    </div>
+    <hr/>
+    <div id="unique">This div has an id. Id's a always unique to each page & should be unique to a whole website. You can use any text or numbers for an id</div>
+    <div class="not-unique">Tags can also have classes or class names. These do not need to be unique and can be used to select multiple html tags at the same time, we'll see more shortly</div>
+    <div id="unique" class="not-unique">Tags can have both</div>
+    <div class="multiple names"> they can also have multiple names, seperated by a space</div>
+    <hr/>
+    <h2>HTML LOOKS BORING. Lets make it fun....& ugly</h2>
+    <h3 style="color:blue">I'm blue</h3>
+    <p style="font-size:24px">I'm bigger than I should be & you've just learned CSS</p>
+    <p>Nobody uses in-line styles :)</p>
+    <style>
+        /* This is a single-line comment */
+        * {
+            font-family: 'Segoe UI', sans-serif
+        }
+        div {
+            border: 1px red solid;
+            padding:4px
+        }
+        /* 
+            This is a multi-line comment 
+            You can have as many rows as you want
+        */
+        #unique {
+            background-color: darkgrey;
+        }
+
+        .not-unique {
+            background-color: #efc123;
+            color: rgba(123, 20, 88, 0.5)
+        }
+
+        .multiple {
+            font-size: 36px;
+        }
+
+        .names {
+            text-align: center;
+        }
+
+        hr {
+            border-top: 2px dashed rgb(0, 30, 255);
+        }
+
+        .btn {
+            width:100%;
+            border: 1px solid rgb(0, 30, 255);
+            color:rgb(0, 30, 255);;
+            padding: 7px 10px;
+            border-radius: 7px;
+        }
+
+        .btn:hover {
+            background-color: rgb(0, 30, 255);
+            color: white;
+            cursor:pointer;
+        }
+
+    </style>
+    <a href="https://www.w3schools.com/css/default.asp">www.w3schools.com/css</a>
+    <h1>Pro Tip: Name your class names something useful & descriptive</h1>
+    <hr/>
+    <a class="btn">View FTSE 100</a>
+</body>
+</html>
