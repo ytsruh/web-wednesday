@@ -15,7 +15,7 @@
 7. Your first JavaScript - logging, data types & structures
 8. Manipulating the DOM & event listeners
 9. PROJECT - A Counter
-10. External Script files & fetch requests
+10. External Script files & fetch requests - https://github.com/lukePeavey/quotable
 11. PROJECT - Pokedex
 12. Storing Data in your browser
 
