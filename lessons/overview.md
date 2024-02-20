@@ -2,7 +2,8 @@
 
 1. HTML & attributes + CSS & selectors
 2. CSS Grid & Flex & Dealing with fonts/icons
-3. Project folder structure + external styles
+3. Project folder structure & external styles
+4. Media Queries & Responsive Development
 
 # Lesson Plan
 
