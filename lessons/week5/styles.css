@@ -1,0 +1,8 @@
+#v-pills-tab .nav-link {
+  min-width: 100px; /* Adjust as needed */
+  min-height: 50px; /* Adjust as needed */
+}
+
+.bg-primary {
+  background-color: darkgrey !important; /* Replace with your desired color */
+}
