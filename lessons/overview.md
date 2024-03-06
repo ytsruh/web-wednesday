@@ -4,6 +4,7 @@
 2. CSS Grid & Flex & Dealing with fonts/icons
 3. Project folder structure & external styles
 4. Media Queries & Responsive Development
+5. Cat Photo Gallery built using [Bootstrap](https://getbootstrap.com/)
 
 # Lesson Plan
 
