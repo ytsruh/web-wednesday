@@ -34,6 +34,8 @@ var f = a / b; // 0.5
 var g = a % b; // 10
 var h = a++; // 11
 var i = a--; // 9
+var hell = 0.1 * 0.2;
+
 // 4. Control Structures
 if (a > b) {
   console.log("a is greater than b");
