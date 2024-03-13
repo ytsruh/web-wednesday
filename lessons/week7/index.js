@@ -1,5 +1,5 @@
 var startTime = new Date().getTime();
-var counter = document.querySelector(".counter");
+var counter = document.querySelector("#counter");
 var decrementButton = document.getElementById("decrement");
 var incrementButton = document.getElementById("increment");
 var countSpan = document.getElementById("count");
