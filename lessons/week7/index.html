@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="text-white bg-slate-900">
+    <nav class="flex justify-around items-center py-5 border-b-2">
+      <a href="./index.html">Home</a>
+      <a href="./form.html">Form</a>
+    </nav>
+    <div class="text-center">
+      <h1 class="text-3xl pt-10">Play the counting game</h1>
+      <p class="text-lg mt-12">
+        The goal is to count to 10. You can use the buttons below to increment or decrement the count. If you
+        reach 10, you win!
+      </p>
+    </div>
+    <div id="counter" class="flex justify-center items-center py-10">
+      <button id="decrement" class="px-5 py-2 bg-white text-black cursor-pointer">-</button>
+      <span id="count" class="px-5 text-lg">0</span>
+      <button id="increment" class="px-5 py-2 bg-white text-black cursor-pointer">+</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
