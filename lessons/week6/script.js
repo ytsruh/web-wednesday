@@ -8,6 +8,7 @@
 // 1. Variables & Data Types
 var name = "Chris"; // String
 var age = 25; // Number
+// All numbers are stored as floating point numbers. These numbers can be Decimal (base 10), Hexadecimal (base 16) or Octal (base 8).
 var isStudent = false; // Boolean
 var hobbies = ["coding", "reading", "gaming"]; // Array
 var person = {
